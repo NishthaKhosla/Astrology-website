@@ -6,7 +6,7 @@
     <meta name="description" content="Going through hard times, need guidance, want to be free of stress free,  you are at the right place.">
     <meta name="keywords" content="Astro, Astrology, Plamist, Future"/>
     <link rel="icon" href ="./images/favicon.ico" alt ="icon" type ="image/x-icon" /> 
-    <title>AstraJyoti - Divine Astrological Guidance</title>
+    <title>Astro-Shree - Divine Astrological Guidance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,6 +59,18 @@
             font-family: 'Lora', serif;
             color: var(--text-heading);
         }
+
+        #home {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('https://i.pinimg.com/736x/b5/07/6c/b5076c5f011c07332a37c3f0c8804901.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
         /* Glassmorphism */
         .glassmorphism {
@@ -240,7 +252,7 @@
         <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="#home" class="text-2xl font-bold accent-gold flex items-center">
                 <i class="fas fa-star-of-life mr-2 text-xl"></i>
-                AstraJyoti
+                Astro-Shree
             </a>
             <div class="hidden md:flex space-x-5 lg:space-x-6 items-center text-sm lg:text-base">
                 <a href="#home" class="hover:accent-gold transition duration-200">Home</a>
@@ -274,30 +286,81 @@
 
     <main class="pt-20">
 
-        <section id="home" class="min-h-screen flex items-center justify-center text-center relative px-4 fade-in-section">
+        <!-- <section id="home" class="min-h-screen flex items-center justify-center text-center relative px-4 fade-in-section">
             <div class="parallax-bg"></div>
             <div class="z-10 relative">
                 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-5 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-500 to-green-500"> Divine Guidance from the Cosmos </h1>
                 <p class="text-lg md:text-xl text-muted mb-8 max-w-3xl mx-auto bg-white/70 p-3 rounded-md shadow"> Unlock the wisdom of the stars. AstraJyoti offers personalized Vedic astrological insights to illuminate your path, relationships, and destiny. </p>
                 <a href="#services" class="inline-block accent-red-bg text-white font-bold py-3 px-10 rounded-lg text-lg transition duration-300 shadow-lg transform hover:scale-105 hover:bg-red-700"> Explore Our Services </a>
             </div>
-        </section>
+        </section> -->
+<section id="home" class="min-h-screen flex items-center justify-center text-center relative px-6 fade-in-section">
 
-        <section id="showcase" class="py-20 px-4 section-bg-alt fade-in-section">
-            <div class="container mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Explore Our Offerings</h2>
-                <p class="text-muted mb-12 max-w-2xl mx-auto">Visual glimpses into the guidance we provide.</p>
-                <div id="service-image-slider" class="slider-container single-item-slider max-w-4xl mx-auto relative mb-10">
-                    <div class="slider-track">
-                        </div>
-                    <div class="slider-controls" id="service-image-slider-dots"></div>
-                </div>
-            </div>
-        </section>
+<div class="parallax-bg"></div>
+
+<div class="z-10 relative max-w-5xl mx-auto flex flex-col items-center">
+
+<h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-orange-500 leading-tight">
+🔮 Unlock the Secrets of Your Destiny
+</h1>
+
+<p class="text-lg md:text-xl text-gray-700 bg-white/80 p-4 rounded-lg shadow-md mb-6 max-w-2xl">
+🕉️ Ancient Vedic astrology guiding your life, love, career and spiritual path through the wisdom of the cosmos.
+</p>
+
+<p class="text-lg text-yellow-600 italic mb-8">
+✨ The stars reveal • Karma explains • Wisdom transforms ✨
+</p>
+
+<!-- SERVICES QUICK VIEW -->
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+
+<div class="glassmorphism p-4 rounded-lg hover-effect">
+🔮 <p class="font-semibold mt-1">Kundli Reading</p>
+</div>
+
+<div class="glassmorphism p-4 rounded-lg hover-effect">
+💑 <p class="font-semibold mt-1">Match Making</p>
+</div>
+
+<div class="glassmorphism p-4 rounded-lg hover-effect">
+🏡 <p class="font-semibold mt-1">Vastu Guidance</p>
+</div>
+
+<div class="glassmorphism p-4 rounded-lg hover-effect">
+💎 <p class="font-semibold mt-1">Gemstone Advice</p>
+</div>
+
+</div>
+
+<!-- CALL TO ACTION -->
+
+<div class="flex flex-col sm:flex-row gap-4 mb-6">
+
+<a href="#services"
+class="accent-red-bg text-white font-bold py-3 px-10 rounded-lg text-lg shadow-lg transform hover:scale-105 transition">
+✨ Explore Services
+</a>
+
+<a href="#contact"
+class="accent-green-bg text-white font-bold py-3 px-10 rounded-lg text-lg shadow-lg transform hover:scale-105 transition">
+📿 Book Consultation
+</a>
+
+</div>
+
+<p class="text-sm text-yellow-600 italic">
+🌟 Trusted guidance for thousands seeking clarity and peace
+</p>
+
+</div>
+
+</section>
 
         <section id="why-us" class="py-20 px-4 section-bg-base fade-in-section">
              <div class="container mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose <span class="accent-gold">AstraJyoti?</span></h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose <span class="accent-gold">Astro-Shree?</span></h2>
                 <p class="text-muted mb-12 max-w-2xl mx-auto">Harnessing ancient wisdom with modern clarity to guide your journey.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="glassmorphism p-6 rounded-xl shadow-lg hover-effect text-center"> <div class="text-5xl accent-gold mb-4"><i class="fas fa-om"></i></div> <h3 class="text-xl font-semibold mb-3 accent-gold">Vedic Accuracy</h3> <p class="text-sm text-muted">Rooted in authentic Vedic principles for profound and time-tested insights.</p> </div>
@@ -430,8 +493,8 @@
         <section id="inspiration" class="py-20 px-4 section-bg-alt fade-in-section">
             <div class="container mx-auto flex flex-col md:flex-row items-center gap-12">
                  <div class="md:w-2/5 text-center inspiration-image-container">
-                     <img src="/bg-cricle.webp" alt="Rotating Chakra" class="rotating-chakra">
-                     <img src="/Gods-129.webp" alt="Shri Hanuman Ji" class="hanuman-image rounded-lg mx-auto hover-effect">
+                     
+                     <img src="https://i.pinimg.com/736x/65/20/f8/6520f84dd398620b95488c1f2f0426fb.jpg" alt="Shri Hanuman Ji" class="hanuman-image rounded-lg mx-auto hover-effect">
                  </div>
                  <div class="md:w-3/5 text-center md:text-left">
                      <h2 class="text-3xl md:text-4xl font-bold mb-6 accent-red">Strength, Devotion, Service</h2>
@@ -467,13 +530,13 @@
         <section id="about" class="py-20 px-4 section-bg-base fade-in-section">
              <div class="container mx-auto flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/3 text-center md:text-left">
-                    <img src="/Dhuni_baba.webp" alt="[Your Name/Astrologer Name]" class="rounded-full shadow-lg mx-auto md:mx-0 w-64 h-64 md:w-full md:h-auto max-w-xs border-4 accent-red-border object-cover hover-effect">
+                    <img src="images/Manasvi.jpeg" alt="[Your Name/Astrologer Name]" class="rounded-full shadow-lg mx-auto md:mx-0 w-64 h-64 md:w-full md:h-auto max-w-xs border-4 accent-red-border object-cover hover-effect">
                 </div>
                 <div class="md:w-2/3 text-center md:text-left">
                     <h2 class="text-3xl md:text-4xl font-bold mb-6">Meet Your <span class="accent-gold">Jyotishi</span></h2>
-                    <h3 class="text-2xl font-semibold text-muted mb-4">[Your Name/Astrologer Name]</h3>
-                    <p class="mb-4 leading-relaxed text-light"> Namaste! I am [Your Name], a dedicated practitioner of Vedic Astrology with [Number] years of experience in guiding individuals through the cosmic map of their lives. My passion lies in decoding the ancient wisdom of the Vedas to offer clarity, direction, and effective remedies. </p>
-                    <p class="mb-4 leading-relaxed text-light"> My expertise includes [mention specific areas like Prashna Kundli, Nakshatra Analysis, Muhurta Selection, etc.]. I believe in an ethical, compassionate approach, empowering you to understand your karma and make informed choices. </p>
+                    <h3 class="text-2xl font-semibold text-muted mb-4">Manasvi Bharadwaj</h3>
+                    <p class="mb-4 leading-relaxed text-light"> Namaste! I am Manasvi, a dedicated practitioner of Vedic Astrology with 5 years of experience in guiding individuals through the cosmic map of their lives. My passion lies in decoding the ancient wisdom of the Vedas to offer clarity, direction, and effective remedies. </p>
+                    <p class="mb-4 leading-relaxed text-light"> My expertise includes Numerology,Kundali Matching,Past Analysis,Guidance,Future predictions & Chart Reading. I believe in an ethical, compassionate approach, empowering you to understand your karma and make informed choices. </p>
                      <p class="leading-relaxed text-light"> Let's explore the divine plan together. </p>
                 </div>
             </div>
@@ -485,11 +548,11 @@
                 <p class="text-muted mb-10"> Ready to gain deeper insights? Use the booking link or send an inquiry below. </p>
                 <div class="mb-10 text-center">
                      <a href="YOUR_BOOKING_LINK_HERE" target="_blank" rel="noopener noreferrer" class="inline-block accent-red-bg text-white font-bold py-3 px-10 rounded-lg text-lg transition duration-300 shadow-lg transform hover:scale-105 hover:bg-red-700"> 📅 Book Consultation Online </a>
-                     <p class="text-sm text-muted mt-2">(Link connects to [Your Booking System Name])</p>
+                     <p class="text-sm text-muted mt-2">Connect with me on +918484013977</p>
                 </div>
                 <div class="glassmorphism p-8 rounded-xl shadow-lg text-left">
                     <h3 class="text-2xl font-semibold mb-6 text-center accent-gold">Send Your Query (Prashn)</h3>
-                    <form id="contactForm">
+                    <form action="https://formspree.io/f/xdawywgk" method="POST">
                          <div class="mb-5"> <label for="name" class="block mb-2 text-sm font-medium text-muted">Your Name (Naam)</label> <input type="text" id="name" name="name" class="text-sm rounded-lg block w-full p-3" placeholder="Enter your name" required> </div>
                         <div class="mb-5"> <label for="email" class="block mb-2 text-sm font-medium text-muted">Your Email</label> <input type="email" id="email" name="email" class="text-sm rounded-lg block w-full p-3" placeholder="you@example.com" required> </div>
                          <div class="mb-5"> <label for="subject" class="block mb-2 text-sm font-medium text-muted">Subject (Vishay)</label> <input type="text" id="subject" name="subject" class="text-sm rounded-lg block w-full p-3" placeholder="Reason for contacting" required> </div>
@@ -503,18 +566,18 @@
 
     </main>
 
-    <a href="https://wa.me/910000000000" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/8484013977" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <footer>
         <div class="container mx-auto text-center text-sm">
             <div class="mb-4">
-                 <a href="#" aria-label="Instagram" class="mx-2 hover:accent-red transition duration-200"><i class="fab fa-instagram fa-lg"></i></a>
-                 <a href="#" aria-label="Facebook" class="mx-2 hover:accent-red transition duration-200"><i class="fab fa-facebook fa-lg"></i></a>
-                 <a href="#" aria-label="Whatsapp" class="mx-2 hover:accent-red transition duration-200"><i class="fab fa-whatsapp fa-lg"></i></a>
+                 <a href="https://www.instagram.com/manasvi_bharadwaj__?igsh=ZGdqcW5rMjluMTJ6&utm_source=qr" aria-label="Instagram" class="mx-2 hover:accent-red transition duration-200"><i class="fab fa-instagram fa-lg"></i></a>
+                 
+                 <a href="wa.me/+918484013977" aria-label="Whatsapp" class="mx-2 hover:accent-red transition duration-200"><i class="fab fa-whatsapp fa-lg"></i></a>
             </div>
-            <p>&copy; 2025 AstraJyoti - [Your Name/Astrologer Name]. All Rights Reserved.</p>
+            <p>&copy; 2024 Astro-Shree - Manasvi Bharadwaj. All Rights Reserved.</p>
             <p>Vedic Astrology provides guidance based on ancient principles. It should not replace professional medical, legal, or financial advice.</p>
             <p class="font-semibold accent-red mt-3">Disclaimer: There are no guarantees that every person using this service will get their desired results for sure. Astrological results depend on a lot of factors and the results may vary from person to person.</p>
         </div>
@@ -850,21 +913,7 @@
         // --- Contact Form ---
         const contactForm = document.getElementById('contactForm');
         const formResultDiv = document.getElementById('formResult');
-        if (contactForm && formResultDiv) { /* ... listener logic ... */
-              contactForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                formResultDiv.textContent = 'Sending...';
-                formResultDiv.className = 'mt-6 text-center font-semibold min-h-[24px] text-muted';
-                // Simulate sending
-                setTimeout(() => {
-                     formResultDiv.textContent = 'Message sent successfully! Thank you.';
-                     formResultDiv.className = 'mt-6 text-center font-semibold min-h-[24px] accent-green';
-                     contactForm.reset();
-                     // Clear message after a delay
-                     setTimeout(() => { formResultDiv.textContent = ''; }, 5000);
-                }, 1500);
-            });
-        }
+       
 
         // --- Smooth Scrolling ---
         document.querySelectorAll('a[href^="#"]').forEach(anchor => { /* ... listener logic ... */
